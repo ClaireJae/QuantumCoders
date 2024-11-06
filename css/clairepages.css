@@ -57,3 +57,47 @@ h1 {
     display: flex;
     font-family: Poppins;
 }
+
+#textBubble {
+    text-align: center;
+    border: solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 155px;
+    border-top-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    padding: 20px;
+    width: 100px;
+    display: flex; 
+    font-size: medium;
+    border: solid black;
+
+}
+
+#textBubbleText {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    background-color: #9dbebb;
+}
+
+#DogImage {
+    width: 125px;
+    height: 125px;
+}
+
+#ImageDiv {
+    margin-top: 140px;
+}
+
+#adventureContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
