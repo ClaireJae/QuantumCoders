@@ -7,24 +7,25 @@ body {
 
 #home-nav {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-around; /* Evenly spaces the links */
+    align-items: center; /* Center items vertically */
     height: 50px;
-    font-family: Sometype Mono;
+    background-color: #2d4a43; /* Optional: Add a background to the navbar */
 }
 
 a {
     text-decoration: none;
-    color: black;
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
+    color: aliceblue;
+    padding: 10px 20px;
     text-align: center;
-    border: solid black .5px;
+    font-size: 1.2rem; /* Adjust font size for readability */
+    border-radius: 5px;
+    border: 1px solid transparent; /* Gives a subtle border effect */
 }
 
 a:hover {
     color: #f4e9cd;
     background-color: #77aca2;
+    border: 1px solid #f4e9cd; /* Add a border on hover for better visibility */
 }
 
