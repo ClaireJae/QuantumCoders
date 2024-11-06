@@ -7,10 +7,10 @@ body {
 
 #home-nav {
     display: flex;
-    justify-content: space-around; /* Evenly spaces the links */
-    align-items: center; /* Center items vertically */
+    justify-content: space-around;
+    align-items: center;
     height: 50px;
-    background-color: #2d4a43; /* Optional: Add a background to the navbar */
+    background-color: #2d4a43;
 }
 
 a {
@@ -18,14 +18,14 @@ a {
     color: aliceblue;
     padding: 10px 20px;
     text-align: center;
-    font-size: 1.2rem; /* Adjust font size for readability */
+    font-size: 1.2rem;
     border-radius: 5px;
-    border: 1px solid transparent; /* Gives a subtle border effect */
+    border: 1px solid transparent;
 }
 
 a:hover {
     color: #f4e9cd;
     background-color: #77aca2;
-    border: 1px solid #f4e9cd; /* Add a border on hover for better visibility */
+    border: 1px solid #f4e9cd;
 }
 
