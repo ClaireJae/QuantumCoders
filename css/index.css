@@ -36,13 +36,12 @@ a:hover {
     border: solid #fff;
     background-color: #fff;
     border-top-right-radius: 155px;
-    border-bottom-left-radius: 155px;
+    border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
     padding: 20px;
-    width: 200px;
-    height: 175px;
-    display: flex;
-    
+    width: 100px;
+    display: flex; 
+    font-size: medium;
 }
 
 #textBubbleText {
@@ -50,4 +49,13 @@ a:hover {
     flex-direction: row;
     margin-top: 20px;
     padding: 20px;
+}
+
+#DogImage {
+    width: 125px;
+    height: 125px;
+}
+
+#ImageDiv {
+    margin-top: 140px;
 }
