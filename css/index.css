@@ -1,6 +1,6 @@
 
 body{
-    background-color: #77ACA2;
+    background-color: #77aca2;
 }
 
 #home-globe{
@@ -27,6 +27,27 @@ a {
 }
 
 a:hover {
-    color: #468189;
-    background-color:lightgray;
+    color: #f4e9cd;
+    background-color: #77aca2;
+}
+
+#textBubble {
+    text-align: center;
+    border: solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 155px;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    padding: 20px;
+    width: 200px;
+    height: 175px;
+    display: flex;
+    
+}
+
+#textBubbleText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 20px;
 }
