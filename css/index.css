@@ -74,7 +74,7 @@ a:hover {
 
 #textBubbleText {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin-top: 20px;
     padding: 20px;
 }
@@ -87,3 +87,9 @@ a:hover {
 #ImageDiv {
     margin-top: 140px;
 }
+
+#adventureContainer {
+    display: flex;
+    flex-direction: row;
+}
+
