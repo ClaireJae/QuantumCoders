@@ -28,16 +28,3 @@ a:hover {
     background-color: #77aca2;
 }
 
-#info-box {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-    max-width: 70%;
-    gap: 15px;
-    border-width: 2px;
-    border-style: solid;
-    border-color:rgb(28, 53, 56);
-    background-color:#486c66;
-    padding: 50px;
-}
