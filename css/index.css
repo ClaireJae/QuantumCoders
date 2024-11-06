@@ -1,0 +1,9 @@
+
+body{
+    background-color: rgb(172, 186, 198);
+}
+
+#home-globe{
+    max-width: 300px;
+    max-height: 300px;
+}
