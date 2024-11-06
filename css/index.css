@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body{
     background-color: #77aca2;
 }
 
+h1 {
+    font-family: Poppins;
+    text-align: center;
+}
+
+h2 {
+    font-family: Poppins;
+    text-align: left;
+}
+
+p {
+    display: flex;
+    font-family: Poppins;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 #home-globe{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #home-nav {
