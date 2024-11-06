@@ -70,6 +70,7 @@ a:hover {
     width: 100px;
     display: flex; 
     font-size: medium;
+    border: solid black;
 
 }
 
@@ -79,6 +80,12 @@ a:hover {
     margin-top: 20px;
     padding: 20px;
     justify-content: center;
+    border: solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    background-color: #9dbebb;
 }
 
 #DogImage {
@@ -93,5 +100,6 @@ a:hover {
 #adventureContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 
