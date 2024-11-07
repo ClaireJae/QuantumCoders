@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #77aca2;
+    color: black;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#pet-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+#pet-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#pet-status {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+button:hover {
+    color: #f4e9cd;
+}
+
