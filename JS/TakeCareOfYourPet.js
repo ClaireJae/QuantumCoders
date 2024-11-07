@@ -7,16 +7,16 @@ function updatePetStatus() {
     document.getElementById('hunger').innerHTML = `Hunger: <span>${hunger}</span>%`;
     document.getElementById('happiness').innerHTML = `Happiness: <span>${happiness}</span>%`;
 
-    health = Math.max(0, Math.min(100, health));
-    hunger = Math.max(0, Math.min(100, hunger));
-    happiness = Math.max(0, Math.min(100, happiness));
+    health = Math.max(100, Math.min(0, health));
+    hunger = Math.max(100, Math.min(0, hunger));
+    happiness = Math.max(100, Math.min(0, happiness));
 }
 
 function feedPet() {
     if (hunger < 100) {
-        hunger += 10;  // Feeding reduces hunger, so increase hunger by 10 but cap it at 100
-        health += 5;   // Health improves when fed
-        happiness += 2;  // Happiness increases slightly from feeding
+        hunger += 10;
+        health += 5;
+        happiness += 2;
         showActionMessage("You fed the Doberman! 🐾");
     } else {
         showActionMessage("The Doberman is already full.");
