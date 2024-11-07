@@ -9,13 +9,15 @@ const output98 = document.querySelector("#output98")
 const output99 = document.querySelector("#output99")
 const output2000 = document.querySelector("#output2000")
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const choice = textField.value;
     
     console.log(textField.value)
     switch (true) {
-        case choice == 1994: output94.append(createYearElement(choice))
+        case choice == "1994": 
+        const yearElement = await createYearElement(choice)
+        output94.append(yearElement)
             
             break;
     
@@ -35,11 +37,12 @@ const loadYearsFromJson = async () => {
 
 const createYearElement = async (time) => {
     const data = await loadYearsFromJson();
-    var yearData = new Year;
+
     console.log(data)
-    data.forEach((object) => {
+
+    for (const object of data) {
         if(object.year === time){
-            yearData = new Year(data.year, data.paragraph1, data.paragraph2);
+            var yearData = new Year(object.year, object.paragraph1, object.paragraph2);
             console.log(yearData)
 
             const yearElement = document.createElement("div");
@@ -47,11 +50,9 @@ const createYearElement = async (time) => {
             yearElement.innerHTML = `
                 <p>${yearData.paragraph1}</p>
             `
-            return yearElement
+            return yearElement;
         }
-    })
-
-    
+    }
     
 }
 
