@@ -122,3 +122,15 @@ a:hover {
     display: flex;
     margin-right: 3%;
 }
+
+
+#info-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 30px;
+    background-color: #9dbebb;
+    border-radius: 10px;
+}
