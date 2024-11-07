@@ -53,16 +53,6 @@ h1, h2 {
     color: aliceblue;
 }
 
-p {
-    display: flex;
-    font-family: Poppins;
-    text-align: center;
-    display: inline-block;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
 #home-globe{
     max-width: 500px;
     max-height: 500px;
@@ -81,7 +71,6 @@ p {
 }
 
 #info-box {
-    display: flex;
     flex-direction: column;
     max-width: 70%;
     margin: 20px auto;
@@ -90,6 +79,9 @@ p {
     background-color: #486c66;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    font-family: Poppins;
+    text-align: center;
 }
 
 #textBubble {
@@ -109,7 +101,6 @@ p {
 
 #textBubbleText {
     display: flex;
-    /* flex-direction: row; */
     margin-top: 20px;
     padding: 20px;
     justify-content: center;
@@ -127,11 +118,12 @@ p {
 }
 
 #ImageDiv {
-    margin-top: 140px;
+    margin-top: 110px;
 }
 
 #adventureContainer {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-left: 3%;
 }
