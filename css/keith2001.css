@@ -59,6 +59,18 @@ p {
     font-family: Sometype Mono;
 }
 
+#info-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 30px;
+    background-color: #486c66;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 a {
     text-decoration: none;
     color: black;
