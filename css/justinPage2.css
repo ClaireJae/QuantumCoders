@@ -61,6 +61,11 @@ h2 {
     text-align: center;
 }
 
+form{
+    text-align: center;
+    font-size: larger;
+}
+
 #textBubble {
     text-align: center;
     border: solid #fff;
