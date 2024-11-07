@@ -12,16 +12,46 @@ const output2000 = document.querySelector("#output2000")
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const choice = textField.value;
-    
+    var yearElement = '';
+
     console.log(textField.value)
     switch (true) {
         case choice == "1994": 
-        const yearElement = await createYearElement(choice)
-        output94.append(yearElement)
-            
+                yearElement = await createYearElement(choice)
+                output94.append(yearElement)
             break;
     
-        default:
+            case choice == "1995": 
+                yearElement = await createYearElement(choice)
+                output95.append(yearElement)
+            break;
+
+            case choice == "1996": 
+                yearElement = await createYearElement(choice)
+                output96.append(yearElement)
+            break;
+
+            case choice == "1997": 
+                yearElement = await createYearElement(choice)
+                output97.append(yearElement)
+            break;
+
+            case choice == "1998": 
+                yearElement = await createYearElement(choice)
+                output98.append(yearElement)
+            break;
+
+            case choice == "1999": 
+                yearElement = await createYearElement(choice)
+                output99.append(yearElement)
+            break;
+
+            case choice == "2000": 
+                yearElement = await createYearElement(choice)
+                output2000.append(yearElement)
+            break;
+
+        default: location.reload();
             break;
     }
      
@@ -47,9 +77,16 @@ const createYearElement = async (time) => {
 
             const yearElement = document.createElement("div");
             yearElement.classList.add("created-year");
-            yearElement.innerHTML = `
+            if(time == 1999 || time == 2000){
+                yearElement.innerHTML = `
                 <p>${yearData.paragraph1}</p>
-            `
+                `
+                return yearElement;
+            }
+            yearElement.innerHTML = `
+                <p class="info-paragraph1">${yearData.paragraph1}</p>
+                <p class="info-paragraph2">${yearData.paragraph2}</p>
+                `
             return yearElement;
         }
     }
