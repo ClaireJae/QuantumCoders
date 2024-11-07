@@ -15,7 +15,6 @@
     display: flex; 
     font-size: medium;
     border: solid black; 
-    
 }
 
 body {
@@ -126,4 +125,5 @@ h1, h2 {
     flex-direction: column;
     margin-top: 60px;
     margin-left: 3%;
+    color: aliceblue;
 }
