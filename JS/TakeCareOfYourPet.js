@@ -47,14 +47,13 @@ function putPetToSleep() {
 }
 
 
-// Function to show action feedback below pet status
+
 function showActionMessage(message) {
     const statusDiv = document.getElementById("pet-status");
     const messageDiv = document.createElement("p");
     messageDiv.textContent = message;
     statusDiv.appendChild(messageDiv);
 
-    // Remove the message after a few seconds
     setTimeout(() => {
         statusDiv.removeChild(messageDiv);
     }, 3000);
