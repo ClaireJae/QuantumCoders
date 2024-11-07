@@ -111,3 +111,31 @@ h2 {
     display: flex;
     margin-right: 3%;
 }
+
+.created-year{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #486c66;
+    box-shadow: 5px 10px black;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+.paragraph-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.paragraph-container1{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
