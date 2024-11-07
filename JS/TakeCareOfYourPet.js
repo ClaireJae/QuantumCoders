@@ -7,9 +7,9 @@ function updatePetStatus() {
     document.getElementById('hunger').innerHTML = `Hunger: <span>${hunger}</span>%`;
     document.getElementById('happiness').innerHTML = `Happiness: <span>${happiness}</span>%`;
 
-    health = Math.max(100, Math.min(0, health));
-    hunger = Math.max(100, Math.min(0, hunger));
-    happiness = Math.max(100, Math.min(0, happiness));
+    health = Math.max(0, Math.min(100, health));
+    hunger = Math.max(0, Math.min(100, hunger));
+    happiness = Math.max(0, Math.min(100, happiness));
 }
 
 function feedPet() {
