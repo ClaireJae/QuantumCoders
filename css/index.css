@@ -12,12 +12,25 @@ h1 {
     text-align: center;
 }
 
-h2 {
+#beginAdventure {
     font-family: Poppins;
     text-align: center;
 }
 
-p {
+#adventureStart {
+
+}
+
+#adventureLink {
+
+}
+
+/* h2 {
+    font-family: Poppins;
+    text-align: center;
+} */
+
+#historyTextContainer {
     display: flex;
     font-family: Poppins;
     text-align: center;
@@ -67,7 +80,7 @@ a:hover {
     border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
     padding: 20px;
-    width: 100px;
+    width: 120px;
     display: flex; 
     font-size: medium;
     border: solid black;
@@ -94,12 +107,18 @@ a:hover {
 }
 
 #ImageDiv {
-    margin-top: 140px;
+    margin-top: 110px;
+
 }
 
 #adventureContainer {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-left: 3%;
 }
 
+#dogContainer {
+    display: flex;
+    margin-right: 3%;
+}
