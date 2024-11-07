@@ -1,18 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background-color: #457e73;
     color: aliceblue;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
 }
 
 #home-nav {
@@ -38,34 +33,81 @@ a:hover {
     background-color: #77aca2;
 }
 
-main {
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.info-box {
-    background-color: #486c66;
-    border: solid 2px rgb(28, 53, 56);
-    border-radius: 8px;
-    margin-bottom: 40px;
+#info-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 20px auto;
+    gap: 20px;
     padding: 30px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
+    background-color: #486c66;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.info-box h3 {
-    margin-top: 0;
-    font-size: 1.4em;
+#job-skills {
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
 }
 
-.info-box ul {
-    padding-left: 20px;
+h1 {
+    font-family: Poppins;
+    text-align: center;
 }
 
-.info-box li {
-    margin-bottom: 10px;
+h2 {
+    font-family: Poppins;
+    text-align: center;
 }
 
+#textBubble {
+    text-align: center;
+    border: solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 155px;
+    border-top-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    padding: 20px;
+    width: 120px;
+    display: flex; 
+    font-size: medium;
+    border: solid black;
+    color: black;
+}
+
+#textBubbleText {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    background-color: #9dbebb;
+}
+
+#DogImage {
+    width: 125px;
+    height: 125px;
+}
+
+#ImageDiv {
+    margin-top: 110px;
+
+}
+
+#adventureContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 3%;
+}
+
+#dogContainer {
+    display: flex;
+    margin-right: 3%;
+}
