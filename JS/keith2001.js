@@ -5,9 +5,9 @@ const prevButton = document.querySelector("#prevButton")
 const nextButton = document.querySelector("#nextButton")
 
 const texts = [
-    "umm",
-    "don't continue",
-    "hey! i said don't continue!"
+    "Umm",
+    "This year was kind of rough..",
+    "Let's get out of here!"
 ]
 
 function updateText() {
