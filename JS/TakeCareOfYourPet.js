@@ -1,6 +1,6 @@
-let health = 100;
+let health = 0;
 let hunger = 0;
-let happiness = 100;
+let happiness = 0;
 
 function updatePetStatus() {
     document.getElementById('health').innerHTML = `Health: <span>${health}</span>%`;
@@ -17,9 +17,9 @@ function feedPet() {
         hunger += 10;
         health += 5;
         happiness += 2;
-        showActionMessage("You fed the Doberman! 🐾");
+        alert("You fed the Doberman! 🐾");
     } else {
-        showActionMessage("The Doberman is already full.");
+        alert("The Doberman is already full.");
     }
     updatePetStatus();
 }
@@ -27,10 +27,10 @@ function feedPet() {
 function playWithPet() {
     if (happiness < 100) {
         happiness += 10;
-        health -= 5;
-        showActionMessage("You played with the Doberman! 🎾");
+        health += 5;
+        alert("You played with the Doberman! 🎾");
     } else {
-        showActionMessage("The Doberman is already very happy!");
+        alert("The Doberman is already very happy!");
     }
     updatePetStatus();
 }
@@ -39,12 +39,13 @@ function putPetToSleep() {
     if (health < 100) {
         health += 15;
         hunger += 5;
-        showActionMessage("The Doberman is sleeping and resting.");
+        alert("The Doberman is sleeping and resting.");
     } else {
-        showActionMessage("The Doberman is already fully rested!");
+        alert("The Doberman is already fully rested!");
     }
     updatePetStatus();
 }
+
 
 // Function to show action feedback below pet status
 function showActionMessage(message) {
