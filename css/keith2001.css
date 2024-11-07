@@ -127,3 +127,64 @@ h1, h2 {
     margin-left: 3%;
     color: aliceblue;
 }
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*-----------------------------------------------------
+#leftContainer {
+    border: solid black;
+    padding: 3%;
+    width: 30%;
+    margin: 1%;
+    margin-top: 4%;
+}
+
+
+/*-----------------------------------------------------*
+#middleContainer {
+    border: solid black;
+    padding: 3%;
+    width: 30%;
+    margin: 1%;
+    margin-top: 4%;
+}
+
+
+#dogContainer {
+    border: solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-----------------------------------------------------*
+#rightContainer {
+    border: solid black;
+    padding: 3%;
+    width: 30%;
+    margin: 1%;
+    margin-top: 4%;
+}
+
+
+
+
+#footer {
+
+
+
+
+} */
