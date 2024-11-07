@@ -14,7 +14,6 @@ form.addEventListener("submit", async (e) => {
     const choice = textField.value;
     var yearElement = '';
 
-    console.log(textField.value)
     switch (true) {
         case choice == "1994": 
                 yearElement = await createYearElement(choice)
@@ -54,9 +53,6 @@ form.addEventListener("submit", async (e) => {
         default: location.reload();
             break;
     }
-     
-    
-    
 });
 
 const loadYearsFromJson = async () => {
@@ -68,12 +64,9 @@ const loadYearsFromJson = async () => {
 const createYearElement = async (time) => {
     const data = await loadYearsFromJson();
 
-    console.log(data)
-
     for (const object of data) {
         if(object.year === time){
             var yearData = new Year(object.year, object.paragraph1, object.paragraph2);
-            console.log(yearData)
 
             const yearElement = document.createElement("div");
             yearElement.classList.add("created-year");
@@ -90,7 +83,6 @@ const createYearElement = async (time) => {
             return yearElement;
         }
     }
-    
 }
 
 class Year{
