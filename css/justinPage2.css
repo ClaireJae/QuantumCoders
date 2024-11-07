@@ -122,7 +122,10 @@ form{
     display: grid;
     grid-template-columns: 1fr;
     background-color: #486c66;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 5px 10px black;
+    border: solid black;
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 20px;
