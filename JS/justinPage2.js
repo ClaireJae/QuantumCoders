@@ -13,6 +13,6 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     const choice = textField.value
     switch(choice){
-        
+        case 1994: 
     }
 })
