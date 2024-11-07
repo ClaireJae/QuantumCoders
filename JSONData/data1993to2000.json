@@ -1,35 +1,42 @@
 [
     {
         "year": "1994",
+        "title": "Netscape and Yahoo are born",
         "paragraph1": "Netscape Communications is born. Microsoft creates a Web browser for Windows 95.",
         "paragraph2": "Yahoo! is created by Jerry Yang and David Filo, two electrical engineering graduate students at Stanford University. The site was originally called Jerry and David's Guide to the World Wide Web. The company was later incorporated in March 1995."
     },
     {
         "year": "1995",
+        "title": "The internet expands along with dating and amazon.",
         "paragraph1": "Compuserve, America Online and Prodigy begin to provide internet access. Amazon.com, Craigslist and eBay go live. The original NSFNET backbone is decommissioned as the internet’s transformation to a commercial enterprise is largely completed.",
         "paragraph2": "The first online dating site, Match.com, launches."
     },
     {
         "year": "1996",
+        "title": "WAR!! Browser war, and a dancing baby.",
         "paragraph1": "The browser war, primarily between the two major players Microsoft and Netscape, heats up. CNET buys tv.com for $15,000.",
         "paragraph2": "A 3D animation dubbed The Dancing Baby becomes one of the first viral videos."
     },
     {
         "year": "1997",
+        "title": "Netflix begins, Microsoft gets got.",
         "paragraph1": "Netflix is founded by Reed Hastings and Marc Randolph as a company that sends users DVDs by mail.",
         "paragraph2": "PC makers can remove or hide Microsoft’s internet software on new versions of Windows 95, thanks to a settlement with the Justice Department. Netscape announces that its browser will be free."
     },
     {
         "year": "1998",
+        "title": "Google and a new internet protocol enter the scene",
         "paragraph1": "The Google search engine is born, changing the way users engage with the internet.",
         "paragraph2": "The Internet Protocol version 6 introduced, to allow for future growth of Internet Addresses. The current most widely used protocol is version 4. IPv4 uses 32-bit addresses allowing for 4.3 billion unique addresses; IPv6, with 128-bit addresses, will allow 3.4 x 1038 unique addresses, or 340 trillion trillion trillion."
     },
     {
         "year": "1999",
+        "title": "AOL does monopoly stuff.",
         "paragraph1": "AOL buys Netscape. Peer-to-peer file sharing becomes a reality as Napster arrives on the Internet, much to the displeasure of the music industry."
     },
     {
         "year": "2000",
+        "title": "This bubble did pop.",
         "paragraph1": "The dot-com bubble bursts. Websites such as Yahoo! and eBay are hit by a large-scale denial of service attack, highlighting the vulnerability of the Internet. AOL merges with Time Warner"
     }
 ]
