@@ -34,7 +34,7 @@ a:hover {
 }
 
 #info-box {
-    display: flex;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
@@ -53,12 +53,8 @@ a:hover {
     padding: 10px;
 }
 
-h1 {
+h1, h2 {
     font-family: Poppins;
-    text-align: center;
-}
-
-h2 {
     text-align: center;
 }
 
