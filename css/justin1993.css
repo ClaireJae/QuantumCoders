@@ -70,7 +70,7 @@ h2 {
     border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
     padding: 20px;
-    width: 120px;
+    width: 160px;
     display: flex; 
     font-size: medium;
     border: solid black;
@@ -93,7 +93,7 @@ h2 {
 
 #DogImage {
     width: 125px;
-    height: 125px;
+    height: 135px;
 }
 
 #ImageDiv {
