@@ -66,7 +66,7 @@ const createYearElement = async (time) => {
 
     for (const object of data) {
         if(object.year === time){
-            var yearData = new Year(object.year, object.title, object.paragraph1, object.paragraph2);
+            var yearData = new Year(object.year, object.title, object.title2, object.paragraph1, object.paragraph2);
 
             const yearElement = document.createElement("div");
             yearElement.classList.add("created-year");
@@ -74,16 +74,18 @@ const createYearElement = async (time) => {
                 yearElement.innerHTML = `
                 <h2>${yearData.title}</h2>
                 <div class="paragraph-container1">
-                <p class="info-paragraph1">${yearData.paragraph1}</p>
+                    <p class="info-paragraph1">${yearData.paragraph1}</p>
                 </div>
                 `
                 return yearElement;
             }
             yearElement.innerHTML = `
-                <h2>${yearData.title}</h2>
+                
                 <div class="paragraph-container">
-                <p class="info-paragraph1">${yearData.paragraph1}</p>
-                <p class="info-paragraph2">${yearData.paragraph2}</p>
+                    <h2>${yearData.title}</h2>
+                    <h2>${yearData.title2}</h2>
+                    <p class="info-paragraph1">${yearData.paragraph1}</p>
+                    <p class="info-paragraph2">${yearData.paragraph2}</p>
                 </div>
                 `
             return yearElement;
@@ -92,9 +94,10 @@ const createYearElement = async (time) => {
 }
 
 class Year{
-    constructor(year, title, paragraph1, paragraph2){
+    constructor(year, title, title2, paragraph1, paragraph2){
         this.year = year;
         this.title = title;
+        this.title2 = title2;
         this.paragraph1 = paragraph1;
         this.paragraph2 = paragraph2;
     }
