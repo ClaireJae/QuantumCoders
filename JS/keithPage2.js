@@ -22,9 +22,9 @@ const texts = [
 ]
 
 const facts = [
-    "<img src='../images/y2k image.jpg' alt='' />",
-    "",
-    "",
+    "Welcome to 2008",
+    "Welcome to 2008",
+    "Welcome to 2008",
     "The Launch of YouTube Partner Program In 2008, YouTube introduced its" +
     "Partner Program, allowing content creators to earn money from ads" +
     "displayed on their videos, paving the way for the rise of the YouTube" +
