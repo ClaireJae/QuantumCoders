@@ -9,11 +9,24 @@ body {
     background-color: #77aca2;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
 
 main {
     padding: 20px;
+    background-color: #9dbebb;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+    margin: 20px;
 }
+
 
 #pet-info {
     display: flex;
@@ -23,10 +36,12 @@ main {
     margin-bottom: 40px;
 }
 
+
 #pet-info img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 #pet-status {
@@ -34,8 +49,59 @@ main {
     margin-top: 20px;
 }
 
+#pet-status h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#pet-status p {
+    margin: 5px 0;
+}
+
+#pet-actions {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #2f9e87;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
 
 button:hover {
+    background-color: #237b6c;
     color: #f4e9cd;
 }
 
+#adventureContainer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #9dbebb;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#adventureContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#adventureContainer p {
+    font-size: 18px;
+}
+
+#adventureLink {
+    color: #2f9e87;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#adventureLink:hover {
+    color: #237b6c;
+}
