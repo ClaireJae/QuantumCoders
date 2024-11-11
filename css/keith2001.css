@@ -80,12 +80,13 @@ a:hover {
 }
 
 /*-----------------------------------------------------*/
-#leftContainer {
+#leftContainer, #rightContainer {
     border: solid black;
     padding: 3%;
     width: 30%;
     margin: 1%;
     margin-top: 4%;
+    font-size: 25px;
 }
 
 
@@ -96,6 +97,7 @@ a:hover {
     width: 30%;
     margin: 1%;
     margin-top: 4%;
+    font-size: 20px;
 }
 
 
@@ -104,17 +106,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-
-
-/*-----------------------------------------------------*/
-#rightContainer {
-    border: solid black;
-    padding: 3%;
-    width: 30%;
-    margin: 1%;
-    margin-top: 4%;
-}
-
 
 #footer {
     border: solid black;
