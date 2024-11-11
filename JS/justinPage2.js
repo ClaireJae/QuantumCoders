@@ -72,7 +72,7 @@ const createYearElement = async (time) => {
             yearElement.classList.add("created-year");
             if(time == 1999 || time == 2000){
                 yearElement.innerHTML = `
-                <h2>${yearData.year}</h2>
+                <h3>${yearData.year}</h3>
                 <h3>${yearData.title}</h3>
                 <div class="paragraph-container1">
                     <p class="info-paragraph1">${yearData.paragraph1}</p>
@@ -81,7 +81,7 @@ const createYearElement = async (time) => {
                 return yearElement;
             }
             yearElement.innerHTML = `
-                <h2>${yearData.year}</h2>
+                <h3>${yearData.year}</h3>
                 <div class="paragraph-container">
                     <h3>${yearData.title}</h3>
                     <h3>${yearData.title2}</h3>
