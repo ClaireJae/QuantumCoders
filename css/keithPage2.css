@@ -79,6 +79,7 @@ a:hover {
     background-position: center;
     border: solid black;
     height: 300px;
+    border-radius: 20px;
 }
 
 #dogContainer {
@@ -122,7 +123,7 @@ a:hover {
 
 #footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     border: solid black 1px;
@@ -133,15 +134,23 @@ a:hover {
     color: aliceblue;
     margin-top: 4%;
     font-size: 20px;
+    border-radius: 20px;
 }
 
-#footerImgContainer {
+#adventureContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-#footerImages {
-    height: 100px;
+#footerRight {
+    /* padding: 20px; */
+    margin-left: 50px;
+}
 
+#footerLeft {
+    /* padding: 20px; */
+    margin-right: 50px;
+}
+
+#hourGlassImg {
+    width: 20%;
 }
