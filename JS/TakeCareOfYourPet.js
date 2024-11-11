@@ -35,7 +35,7 @@ function playWithPet() {
     updatePetStatus();
 }
 
-function putPetToSleep() {
+function TakeANap() {
     if (health < 100) {
         health += 15;
         hunger += 5;
