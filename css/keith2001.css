@@ -32,6 +32,7 @@ p {
     justify-content: center;
     height: 50px;
     font-family: Sometype Mono;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 a {
@@ -69,8 +70,6 @@ a:hover {
     /* margin-right: 0%; */
 }
 
-
-
 #mainContainer {
     display: flex;
     flex-direction: column;
@@ -83,54 +82,59 @@ a:hover {
 
 /*-----------------------------------------------------*/
 #leftContainer {
-    border: solid black;
-    border-top: none;
-    border-bottom: none;
+    border: solid black 1px;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #486c66;
     padding: 3%;
     width: 30%;
     margin: 1%;
     margin-top: 4%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-
 
 /*-----------------------------------------------------*/
 #middleContainer {
-    border: solid black;
-    border-top: none;
-    border-bottom: none;
+    border: solid black 1px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 3%;
     width: 30%;
     margin: 1%;
     margin-top: 4%;
+    background-color: #77aca2;
 }
-
 
 #dogContainer {
     border: solid black;
+    border-radius: 20px 0px 20px 0px;
     display: flex;
     justify-content: center;
 }
 
-
 /*-----------------------------------------------------*/
 #rightContainer {
-    border: solid black;
+    border: solid black 1px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 3%;
     width: 30%;
     margin: 1%;
     margin-top: 4%;
+    background-color: #486c66;
 }
-
 
 #footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: solid black;
-    border-top: none;
+    border: solid black 1px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 1%;
-    margin: 0% 1% 0% 1%
+    margin: 0% 1% 0% 1%;
+    background-color: #486c66;
+    margin-top: 4%;
 }
 
 #footerImgContainer {
@@ -143,7 +147,6 @@ a:hover {
     height: 100px;
 
 }
-
 
 #adventureContainer {
     display: flex;
