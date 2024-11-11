@@ -136,40 +136,27 @@ a:hover {
 }
 
 .buttons {
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
+    justify-content: center;
     
 }
 
 #prevButton {
     background-color: #457e73;
-    border-radius: 50px;
-    padding: 25%;
+    border-radius: 20px;
+    padding: 15%;
     color: white;
-    /* margin-right: 20%; */
+    margin-right: 5%;
 }
 
 #nextButton {
     background-color: #457e73;
-    border-radius: 50px;
-    padding: 25%;
+    border-radius: 20px;
+    padding: 15%;
     color: white;
-    /* margin-left: 20%; */
+    margin-left: 5%;
 }
-
-
-/* <div id="dogContainer">
-
-<img id="dogImage" src="../sprites/Talking dog gif.gif" alt="DogImage">
-
-<div class="originalText" id="textContainer"></div>
-</div>
-
-<div class="buttons">
-<button id="prevButton">Previous</button>
-<button id="nextButton">Next</button>
-<div><p>Click Here: <a href="keithPage2.html">2008</a></p></div>
-</div> */
 
 /*-----------------------------------------------------*/
 #rightContainer {
@@ -183,10 +170,11 @@ a:hover {
     background-color: #486c66;
 }
 
+/*------------------------------------------------------*/
 #footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     border: solid black 1px;
     border-radius: 0px 20px 0px 20px;
@@ -197,19 +185,24 @@ a:hover {
     margin-top: 4%;
 }
 
-#footerImgContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#footerLink {
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footerLink:hover {
+    background-color: #486c66;
+}
+
+#footerImagesWLink:hover {
+    height: 120px;
 }
 
 #footerImages {
     height: 100px;
-
 }
 
-#adventureContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+#footerImagesWLink {
+    height: 100px;
 }
