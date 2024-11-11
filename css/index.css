@@ -25,6 +25,12 @@ h1 {
 
 }
 
+.sizeTextParagraph {
+    width: 1000px;
+    height: 75px;
+    font-size: 20px;
+}
+
 /* h2 {
     font-family: Poppins;
     text-align: center;

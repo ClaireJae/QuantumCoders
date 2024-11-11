@@ -8,6 +8,24 @@ body {
     background-color: #457e73;
 }
 
+h2 {
+    font-family: Poppins;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(186, 97, 154);
+    text-shadow: 2px 2px rgba(139, 0, 139, 0.766);
+}
+
+p {
+    color: lightpink;
+}
+
 #home-nav {
     display: flex;
     align-content: center;
@@ -64,29 +82,14 @@ a:hover {
 }
 
 /*-----------------------------------------------------*/
-
-#topBarContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4%;
-}
-
-#topBar {
-    border: solid black;
-    border-bottom: none;
-    border-radius: 0px 1000px 0px 0px;
-    padding: 0% 1% 1% 1%;
-    width: 30%;
-    margin: 0% 1% 0% 1%;
-}
-
 #leftContainer {
     border: solid black;
     border-top: none;
     border-bottom: none;
     padding: 3%;
     width: 30%;
-    margin: 0% 1% 0% 1%
+    margin: 1%;
+    margin-top: 4%;
 }
 
 
@@ -97,7 +100,8 @@ a:hover {
     border-bottom: none;
     padding: 3%;
     width: 30%;
-    margin: 0% 1% 0% 1%;
+    margin: 1%;
+    margin-top: 4%;
 }
 
 
@@ -111,40 +115,12 @@ a:hover {
 /*-----------------------------------------------------*/
 #rightContainer {
     border: solid black;
-    border-top: none;
-    border-bottom: none;
-    /* border-radius: 20px 20px 20px 20px; */
     padding: 3%;
     width: 30%;
-    margin: 0% 1% 0% 1%;
+    margin: 1%;
+    margin-top: 4%;
 }
 
-#bottomBarContainer {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1%;
-}
-
-#bottomBar {
-    border: solid black;
-    border-radius: 0px 0px 0px 1000px;
-    border-top: none;
-    padding: 0% 1% 1% 1%;
-    width: 30%;
-    margin: 0% 1% 0% 1%;
-}
-
-#footerTopBarContainer {
-
-}
-
-#footerTopBar {
-    border: solid black;
-    border-radius: 0px 1000px 0px 0px;
-    border-bottom: none;
-    padding: 0% 1% 1% 1%;
-    margin: 1% 1% 0% 1%;
-}
 
 #footer {
     display: flex;
@@ -166,4 +142,11 @@ a:hover {
 #footerImages {
     height: 100px;
 
+}
+
+
+#adventureContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
