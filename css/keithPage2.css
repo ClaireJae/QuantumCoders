@@ -55,95 +55,72 @@ a:hover {
 
 #mainContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
 }
 
-#secondMainContainer {
-    display: flex;
-    flex-direction: row;
-}
+
 
 /*-----------------------------------------------------*/
-
-#topBarContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4%;
-}
-
-#topBar {
-    border: solid black;
-    border-bottom: none;
-    border-radius: 0px 1000px 0px 0px;
-    padding: 0% 1% 1% 1%;
-    width: 30%;
-    margin: 0% 1% 0% 1%;
-}
 
 #leftContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: 100%; 
     border: solid black;
-    border-top: none;
-    border-bottom: none;
     padding: 3%;
-    width: 30%;
-    margin: 0% 1% 0% 1%
-}
-
-
-/*-----------------------------------------------------*/
-#middleContainer {
-    border: solid black;
-    border-top: none;
-    border-bottom: none;
-    padding: 3%;
-    width: 30%;
+    width: 50%;
     margin: 0% 1% 0% 1%;
+    
 }
-
 
 #dogContainer {
-    border: solid black;
     display: flex;
-    justify-content: center;
 }
+
+#dogImage {
+    width: 20%;
+    margin-left: 30%;
+}
+
+#textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    border: solid black;
+    border-radius: 100px 100px 100px 1px;
+    background-color: #f4e9cd;
+    margin-bottom: 50px;
+}
+
+/* <div id="dogContainer">
+<img
+  id="dogImage"
+  src="../sprites/Talking dog gif.gif"
+  alt="DogImage"
+/>
+
+<div class="originalText" id="textContainer"></div>
+</div>
+
+<div class="buttons">
+<button id="prevButton">Previous</button>
+<button id="nextButton">Next</button>
+</div> */
 
 
 /*-----------------------------------------------------*/
 #rightContainer {
     border: solid black;
-    border-top: none;
-    border-bottom: none;
-    /* border-radius: 20px 20px 20px 20px; */
     padding: 3%;
     width: 30%;
     margin: 0% 1% 0% 1%;
-}
-
-#bottomBarContainer {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1%;
-}
-
-#bottomBar {
-    border: solid black;
-    border-radius: 0px 0px 0px 1000px;
-    border-top: none;
-    padding: 0% 1% 1% 1%;
-    width: 30%;
-    margin: 0% 1% 0% 1%;
-}
-
-#footerTopBarContainer {
-
-}
-
-#footerTopBar {
-    border: solid black;
-    border-radius: 0px 1000px 0px 0px;
-    border-bottom: none;
-    padding: 0% 1% 1% 1%;
-    margin: 1% 1% 0% 1%;
 }
 
 #footer {
@@ -152,7 +129,6 @@ a:hover {
     justify-content: center;
     text-align: center;
     border: solid black;
-    border-top: none;
     padding: 1%;
     margin: 0% 1% 0% 1%
 }
