@@ -58,6 +58,22 @@ h1, h2 {
     text-align: center;
 }
 
+#textBubble2 {
+    text-align: center;
+    border: solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 155px;
+    border-top-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    padding: 20px;
+    width: 110px;
+    height: 180px;
+    display: flex; 
+    font-size: medium;
+    border: solid black;
+    color: black;
+}
+
 #textBubble {
     text-align: center;
     border: solid #fff;
@@ -66,7 +82,7 @@ h1, h2 {
     border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
     padding: 20px;
-    width: 120px;
+    width: 125px;
     display: flex; 
     font-size: medium;
     border: solid black;
@@ -89,12 +105,11 @@ h1, h2 {
 
 #DogImage {
     width: 125px;
-    height: 125px;
+    height: 125px
 }
 
 #ImageDiv {
     margin-top: 110px;
-
 }
 
 #adventureContainer {
