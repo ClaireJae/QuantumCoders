@@ -129,9 +129,14 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: solid black;
+    border: solid black 1px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 1%;
-    margin: 0% 1% 0% 1%
+    margin: 0% 1% 0% 1%;
+    background-color: #486c66;
+    color: aliceblue;
+    margin-top: 4%;
+    font-size: 20px;
 }
 
 #footerImgContainer {
