@@ -5,6 +5,9 @@
 
 body{
     background-color: #77aca2;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
 }
 
 h1 {
