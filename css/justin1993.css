@@ -74,6 +74,7 @@ h2 {
     width: 160px;
     display: flex; 
     font-size: large;
+    font-weight: bold;
     border: solid black;
     color: black;
 }
