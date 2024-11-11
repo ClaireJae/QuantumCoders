@@ -70,9 +70,10 @@ h2 {
     border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
     padding: 20px;
+    padding-bottom: 5px;
     width: 160px;
     display: flex; 
-    font-size: medium;
+    font-size: large;
     border: solid black;
     color: black;
 }
@@ -80,8 +81,9 @@ h2 {
 
 #textBubbleText {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
+    padding-top: 20px;
     justify-content: center;
     border: solid black;
     margin-left: 20%;
