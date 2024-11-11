@@ -5,24 +5,24 @@ const factContainer = document.querySelector("#factContainer")
 const prevButton = document.querySelector("#prevButton")
 const nextButton = document.querySelector("#nextButton")
 
-const texts = [ //update the dogs text
+const texts = [ 
     "2008...",
-    "What a weird era of the internet",
+    "The internet was really taking off back then.",
     "Lets learn some facts!",
-    "fact 1",
-    "fact 2",
-    "fact 3",
-    "fact 4",
-    "fact 5",
-    "fact 6",
-    "fact 7",
-    "fact 8",
-    "fact 9",
-    "fact 10"
+    "YouTube!? Hey I love watching YouTube!",
+    "Why does cloud computing sound so cool?",
+    "Wow, the Android operating system was very innovative back in 2008.",
+    "Hey, I remember getting mailed Netflix movies.",
+    "I must have downloaded at least 6 apps from the google play store back then.",
+    "I use google chrome everyday!",
+    "Hey, I have an iphone.",
+    "I remember losing my job back in 2008...",
+    "FaceBook?? Don't you mean Meta?",
+    "I love tweeting on twitter."
 ]
 
 const facts = [
-    "",
+    "<img src='../images/y2k image.jpg' alt='' />",
     "",
     "",
     "The Launch of YouTube Partner Program In 2008, YouTube introduced its" +
