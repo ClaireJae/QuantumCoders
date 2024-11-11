@@ -25,6 +25,9 @@ a {
     line-height: 50px;
     text-align: center;
     border: solid black .5px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
 }
 
 a:hover {
@@ -112,12 +115,24 @@ a:hover {
     margin-top: 10px;
 }
 
+.buttons:hover {
+    background-color: #457e73;
+}
+
 #prevButton {
     padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: #486c66;
+    color: white;
 }
 
 #nextButton {
     padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: #486c66;
+    color: white;
 }
 
 /*-----------------------------------------------------*/
@@ -131,6 +146,12 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+#factContainer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
 }
 
 #footer {
