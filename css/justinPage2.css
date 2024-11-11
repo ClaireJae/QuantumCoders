@@ -151,6 +151,5 @@ form{
     max-width: 350px;
     max-height: 300px;
     border-radius: 100%;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 5px 10px black; */
+    filter: grayscale(80%);
 }
