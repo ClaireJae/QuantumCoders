@@ -51,12 +51,7 @@ a:hover {
     padding: 10px;
 }
 
-h1 {
-    font-family: Poppins;
-    text-align: center;
-}
-
-h2 {
+h1, h2 {
     font-family: Poppins;
     text-align: center;
 }

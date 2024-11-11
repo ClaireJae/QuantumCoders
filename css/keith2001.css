@@ -8,6 +8,15 @@ body {
     background-color: #457e73;
 }
 
+h1, h2 {
+    font-family: Poppins;
+    text-align: center;
+    color: aliceblue;
+}
+p {
+    color: lightpink;
+}
+
 #home-nav {
     display: flex;
     align-content: center;
