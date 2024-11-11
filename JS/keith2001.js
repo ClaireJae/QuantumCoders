@@ -5,7 +5,6 @@ const prevButton = document.querySelector("#prevButton")
 const nextButton = document.querySelector("#nextButton")
 
 const texts = [
-    "Umm",
     "This year was kind of rough..",
     "Let's get out of here!"
 ]
