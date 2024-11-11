@@ -120,3 +120,10 @@ a:hover {
     border: solid black;
     margin: 0;
 }
+
+
+#adventureContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
