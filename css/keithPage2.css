@@ -108,6 +108,18 @@ a:hover {
     max-width: 45%;
 }
 
+.buttons {
+    margin-top: 10px;
+}
+
+#prevButton {
+    padding: 10px;
+}
+
+#nextButton {
+    padding: 10px;
+}
+
 /*-----------------------------------------------------*/
 #rightContainer {
     border: solid black;
@@ -139,15 +151,14 @@ a:hover {
 
 #adventureContainer {
     display: flex;
+    justify-content: center;
 }
 
 #footerRight {
-    /* padding: 20px; */
     margin-left: 50px;
 }
 
 #footerLeft {
-    /* padding: 20px; */
     margin-right: 50px;
 }
 
