@@ -34,26 +34,29 @@ a:hover {
 }
 
 #info-box {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
     max-width: 70%;
-    gap: 15px;
-    border-width: 2px;
-    border-style: solid;
-    border-color:rgb(28, 53, 56);
-    background-color:#486c66;
-    padding: 50px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 30px;
+    background-color: #486c66;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#info-right {
+#job-skills {
     border-width: 2px;
     border-style: solid;
     padding: 10px;
 }
 
-h1, h2 {
+h1 {
+    font-family: Poppins;
+    text-align: center;
+}
+
+h2 {
     font-family: Poppins;
     text-align: center;
 }
@@ -67,14 +70,15 @@ h1, h2 {
     border-bottom-right-radius: 155px;
     padding: 20px;
     width: 120px;
+    display: flex; 
     font-size: medium;
     border: solid black;
     color: black;
 }
 
+
 #textBubbleText {
     display: flex;
-    /* flex-direction: row; */
     margin-top: 20px;
     padding: 20px;
     justify-content: center;
@@ -93,7 +97,6 @@ h1, h2 {
 
 #ImageDiv {
     margin-top: 110px;
-
 }
 
 #adventureContainer {
