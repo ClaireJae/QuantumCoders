@@ -37,7 +37,7 @@ const facts = [
 
     "The Release of the Android Operating System In 2008, Google released" +
     "the first commercial version of its Android operating system, marking" +
-    "the beginning of Android’s rise as a competitor to Apple's iOS in the" +
+    "the beginning of Android's rise as a competitor to Apple's iOS in the" +
     "mobile space.",
 
     "The Growth of Online Video Streaming In 2008, Netflix made a major" +
