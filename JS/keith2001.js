@@ -5,8 +5,10 @@ const prevButton = document.querySelector("#prevButton")
 const nextButton = document.querySelector("#nextButton")
 
 const texts = [
-    "Slide to the left!",
-    "Slide to the right!"
+    "This is when the Cha Cha Slide was made.",
+    "Slide to the left",
+    "Slide to the right!---------->",
+    "Okay enough"
 ]
 
 function updateText() {
