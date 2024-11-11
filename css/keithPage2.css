@@ -52,16 +52,12 @@ a:hover {
     /* margin-right: 0%; */
 }
 
-
-
 #mainContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 1%;
 }
-
-
 
 /*-----------------------------------------------------*/
 
@@ -71,26 +67,30 @@ a:hover {
     justify-content: center;
     text-align: center;
     height: 100%; 
-    border: solid black;
-    padding: 3%;
+    /* border: solid black; */
+    padding: 1%;
     width: 50%;
     margin: 0% 1% 0% 1%;
-
-    
 }
 
 #leftContent {
     background-image: url(../images/pixel\ art\ background.jpg);
     background-size: cover;
     background-position: center;
+    border: solid black;
+    height: 300px;
 }
 
 #dogContainer {
     display: flex;
+    margin-top: 130px;
+    margin-right: 20%;
+    
 }
 
 #dogImage {
-    width: 20%;
+    width: 100px;
+    height: 100px;
     margin-left: 30%;
 }
 
@@ -103,31 +103,21 @@ a:hover {
     border: solid black;
     border-radius: 100px 100px 100px 1px;
     background-color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    max-width: 45%;
 }
-
-/* <div id="dogContainer">
-<img
-  id="dogImage"
-  src="../sprites/Talking dog gif.gif"
-  alt="DogImage"
-/>
-
-<div class="originalText" id="textContainer"></div>
-</div>
-
-<div class="buttons">
-<button id="prevButton">Previous</button>
-<button id="nextButton">Next</button>
-</div> */
-
 
 /*-----------------------------------------------------*/
 #rightContainer {
     border: solid black;
+    border-radius: 20px;
     padding: 3%;
-    width: 30%;
+    width: 25%;
     margin: 0% 1% 0% 1%;
+    background-image: url(../images/computer\ popup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #footer {
